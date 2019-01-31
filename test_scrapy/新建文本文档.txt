@@ -1,9 +1,0 @@
-object network obj-https-215.0.72.5-CTC
- host 215.0.72.5
-object network obj-https-215.0.72.5-CNC
- host 215.0.72.5
-
-object network obj-https-215.0.72.5-CTC
- nat (inside,CTC) static 101.89.65.45 service tcp 443 443
-object network obj-https-215.0.72.5-CNC
- nat (inside,CNC) static 43.240.130.45 service tcp 443  443 
